@@ -1,61 +1,62 @@
-# string - არის ტექსტური მონაცემის ტიპი რომელიც რომელიც გამოიყენება ბრჭყალებში ' და " სტრინგი შეიძლება იყოს ასოები,ციფრები და სიმბოლოები მაგ. ('hello')
-# integer - არის მთლიანი რიცხვი(3,4,5)
-# float - არის ათწილადი რიცხვი მაგ.(5.2 , 6.3)
-# ცვლადი არის სახელი.რომელიც ინახავს მონაცემს.. ანუ ცვლადი არის "ყუთი" სადაც ვინახავთ რაიმე მნიშვნელობა
-#__________________________________________________________________________________________________________________________________________________________
+#კომენტარი არის ტექსტი კოდში, რომელსაც Python არ ასრულებს. ის მხოლოდ ადამიანებისთვისაა — ახსნა-განმარტებისთვის.
+#Case-sensitive ნიშნავს, რომ დიდ და პატარა ასოებს მნიშვნელობა აქვს — ისინი განსხვავებულად ითვლება.
+#Case-insensitive ნიშნავს, რომ დიდ და პატარა ასოებს მნიშვნელობა არ აქვს — ისინი ერთნაირად ითვლება.
 
-print('hello world')
-print('python')
-print('aleqsandre')
-print('laptop')
-print('discord')
+# snake_case არის ცვლადების (ან ფუნქციების) დასახელების სტილი,
+# სადაც ყველა ასო პატარაა და სიტყვები ერთმანეთისგან გამოყოფილია ქვედა ტირეთი (_).
+# მაგალითად: first_name, user_age, favorite_color
+# Python-ში რეკომენდებულია snake_case სტილის გამოყენება ცვლადებისთვის.
+print("GOA_yvelaze_sauketeso_programirebis_akademiaa")
 
-print(1)
-print(20)
-print(100)
-print(77)
-print(67)
+# Bug ნიშნავს შეცდომას პროგრამაში.
 
-print(5.12)
-print(7.2)
-print(6.7)
-print(7.78)
-print(9.0)
+# Debugging ნიშნავს bug-ების პოვნასა და გასწორების პროცესს. როცა პროგრამისტი ამოწმებს კოდს, პოულობს შეცდომას
 
-#________________
+#----------------------------------------------------------------
 
-name = 'aleqsandre'
-age = 'fourteen'
-color = 'black'
-sport = 'mma'
-animal = 'lion'
+# 1) name = "luka"
+#   print(namme)
 
-print("hello, my name is  " + name + " ,i am " + age + " years old, " + " my favorite color is " + color + " my favorite sport is " + sport + " my favorite animal is " + animal)
+name = "luka"
+print(name) 
 
-#_______________________________
+# 2) number = 5
+# text = " apples"
+# result = number + text
+# print(result)
 
-print(3+3)
-print(6+9)
-print(9+0)
+number = "five "
+text = "apples"
+result = number + text
+print(result)
 
-print(9-0)
-print(77-0)
-print(9-0)
+# 3) name = liKa
+# name2 = naame + "4"
 
-print(7*8)
-print(7*9)
-print(9*4)
+name = "lika"
+name2 = name + "4"
 
-print(63/7)
-print(56/6)
-print(27/3)
+# 4) first_user = "Lika"
+#    2nduser = "Giorgi"
+#    print(first user)
 
-#__________________________________
+first_user = "lika"
+second_user = "giorgi"
+print(first_user)
 
-num1 = 9
-num2 = 2
-num3 = 1
+# 5) first name = Data
+#    last % name = "random"
 
-print(num1 + num2 + num3)
+first_name = "data" 
+last_name = "random"
 
-#_____________________________________________________--
+#6) first_user = "Lika"
+#    2nduser = "Giorgi"
+#    print(first user)
+
+first_user = "lika"
+second_user = "giorgi"
+print(first_user)
+
+#--------------------------------------------------------------------
+
