@@ -25,7 +25,7 @@ print(name)
 # result = number + text
 # print(result)
 
-number = "five "
+number = "5 "
 text = "apples"
 result = number + text
 print(result)
