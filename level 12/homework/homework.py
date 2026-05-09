@@ -63,4 +63,8 @@ while num <= 24:
     print(num)
     num += 1
     
+count = 0
+while count > 6:
+    print("aleqsandre")
+    count += 1
 
